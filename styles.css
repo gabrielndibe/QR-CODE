@@ -1,0 +1,47 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --slate-300: hsl(212, 45%, 89%);
+    --slate-500: hsl(216, 15%, 48%);
+    --slate-900: hsl(218, 44%, 22%);
+  }
+  html {
+    height: 100%;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Outfit", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: grid;
+    place-items: center;
+    font-size: 0.9375rem;
+    background: var(--slate-300);
+    height: 100%;
+    text-align: center;
+    font-weight: 400;
+  }
+  img {
+    display: block;
+    max-inline-size: 100%;
+  }
+  .qr-code {
+    background-color: var(--white);
+    padding: 1rem;
+    border-radius: 0.5em;
+    width: 15.5rem;
+    color: var(--slate-500);
+    display: grid;
+    gap: 1rem;
+    box-shadow: 0 0 1px var(--slate-500);
+  }
+  .qr-code__title {
+    color: var(--slate-900);
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+  .qr-code__img {
+    border-radius: 0.5em;
+  }
